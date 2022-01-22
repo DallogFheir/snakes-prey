@@ -23,7 +23,7 @@ _snake.py_ file contains the following classes:
   - **move_prey(direction: Direction) -> bool** - moves the prey in the given direction, returns True if that move resulted in game over (False otherwise)
   - **move_snake() -> bool** - moves the snake 1 tile towards the prey, using A\*, returns True if that move resulted in game over (False otherwise)
 - **Coord(x: int, y: int)** - represents a point on the board, takes _x_ and _y_ coordinates as arguments; operations and methods:
-  - **==, !=, >, >=, <, <=** - compare _x_ coordinate to _x_ coordinate and _y_ coordinate to _y_ coordiante
+  - **==, !=, >, >=, <, <=** - compare _x_ coordinate to _x_ coordinate and _y_ coordinate to _y_ coordinate
   - **-** - negates _x_ coordinate and _y_ coordinate
   - **distance(other : Coord)** - calculates the Euclidean distance between two points
 - **Direction** - enum with the values **UP, DOWN, LEFT, RIGHT**
